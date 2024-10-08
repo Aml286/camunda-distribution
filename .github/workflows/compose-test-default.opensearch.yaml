@@ -1,13 +1,13 @@
-name: "Test docker-compose-core.opensearch.yaml"
+name: "compose: test default with opensearch"
 on:
   push:
     branches:
       - "**"
 jobs:
-  test_core:
+  test_docker_compose_yaml:
     uses: ./.github/workflows/template-deploy.yaml
     secrets: inherit
     with:
-      compose_args: "-f docker-compose-core.yaml --profile opensearch"
+      compose_args: "-f docker-compose.yaml --profile opensearch"
       run_e2e_tests: false
       search_db: opensearch

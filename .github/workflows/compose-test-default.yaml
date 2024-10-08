@@ -1,4 +1,4 @@
-name: "Test docker-compose.yaml"
+name: "compose: test default"
 on:
   push:
     branches:

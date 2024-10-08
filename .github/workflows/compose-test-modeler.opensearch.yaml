@@ -1,4 +1,4 @@
-name: "Test docker-compose-web-modeler.yaml with OpenSearch"
+name: "compose: test modeler with opensearch"
 on:
   push:
     branches:

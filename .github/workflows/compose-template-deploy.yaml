@@ -1,4 +1,4 @@
-name: "test"
+name: "compose: deploy template"
 
 on:
   workflow_call:

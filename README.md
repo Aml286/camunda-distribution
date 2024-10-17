@@ -285,7 +285,7 @@ Looking for information on Camunda Platform 7? Check out the links below:
 - [Documentation](https://docs.camunda.org/)
 - [GitHub](https://github.com/camunda/camunda-bpm-platform)
 
-# camunda-distribution
+# camunda-distribution:
 Camunda 8 Self-Managed Distributions
 
 A mono repo for Camunda 8 Self-Managed Distributions .
